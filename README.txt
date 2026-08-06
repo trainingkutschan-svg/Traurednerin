@@ -1,0 +1,1 @@
+index.html im Browser öffnen. Vor Veröffentlichung Kontaktdaten, Links, Impressum und Datenschutz ersetzen; Formular technisch anbinden.
