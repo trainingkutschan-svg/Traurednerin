@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Impressum | Martina Barthelme</title>
+  <meta name="robots" content="noindex,follow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --cream:#f4efe7;
+      --paper:#fffdf9;
+      --ink:#1f2521;
+      --olive:#4f5946;
+      --rose:#c98578;
+      --line:rgba(31,37,33,.16);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      background:var(--cream);
+      color:var(--ink);
+      font-family:"DM Sans",sans-serif;
+      line-height:1.7;
+    }
+    a{color:inherit}
+    .site-header{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      padding:20px 5vw;
+      background:rgba(244,239,231,.94);
+      border-bottom:1px solid var(--line);
+      position:sticky;
+      top:0;
+      z-index:10;
+      backdrop-filter:blur(16px);
+    }
+    .brand{
+      display:flex;
+      flex-direction:column;
+      text-decoration:none;
+      line-height:1.15;
+    }
+    .brand-name{
+      font-family:"Playfair Display",serif;
+      font-size:1.25rem;
+    }
+    .brand-role{
+      text-transform:uppercase;
+      font-size:.68rem;
+      letter-spacing:.2em;
+      margin-top:4px;
+    }
+    .back{
+      text-decoration:none;
+      border:1px solid var(--ink);
+      padding:10px 18px;
+      border-radius:999px;
+      font-size:.88rem;
+    }
+    .hero{
+      padding:8vw 7vw 4vw;
+      max-width:1200px;
+      margin:auto;
+    }
+    .eyebrow{
+      text-transform:uppercase;
+      letter-spacing:.18em;
+      font-size:.73rem;
+      font-weight:600;
+      color:var(--olive);
+    }
+    h1,h2{
+      font-family:"Playfair Display",serif;
+      font-weight:500;
+      line-height:1.1;
+    }
+    h1{
+      font-size:clamp(3rem,7vw,6rem);
+      margin:.2em 0;
+      letter-spacing:-.04em;
+    }
+    .intro{
+      max-width:760px;
+      font-size:1.08rem;
+    }
+    .content{
+      display:grid;
+      grid-template-columns:.75fr 1.25fr;
+      gap:7vw;
+      max-width:1200px;
+      margin:0 auto;
+      padding:3vw 7vw 9vw;
+    }
+    .side-card{
+      background:var(--olive);
+      color:white;
+      border-radius:28px;
+      padding:32px;
+      align-self:start;
+      position:sticky;
+      top:110px;
+    }
+    .side-card .heart{
+      font-family:"Playfair Display",serif;
+      font-size:3rem;
+      color:#ead3cc;
+      display:block;
+      margin-bottom:12px;
+    }
+    .side-card p{margin:.4rem 0}
+    .legal{
+      background:var(--paper);
+      border-radius:28px;
+      padding:clamp(28px,5vw,58px);
+      box-shadow:0 20px 60px rgba(0,0,0,.04);
+    }
+    .legal section+section{
+      border-top:1px solid var(--line);
+      margin-top:34px;
+      padding-top:30px;
+    }
+    .legal h2{
+      font-size:clamp(1.5rem,2.5vw,2.3rem);
+      margin:0 0 14px;
+    }
+    .placeholder{
+      background:#fff2ee;
+      border-left:4px solid var(--rose);
+      padding:12px 14px;
+      border-radius:8px;
+      font-weight:600;
+    }
+    footer{
+      display:flex;
+      justify-content:space-between;
+      gap:24px;
+      flex-wrap:wrap;
+      padding:32px 5vw;
+      background:var(--ink);
+      color:white;
+      font-size:.85rem;
+    }
+    footer a{color:white}
+    @media(max-width:800px){
+      .content{grid-template-columns:1fr}
+      .side-card{position:static}
+      .hero{padding-top:70px}
+    }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="index.html">
+    <span class="brand-name">Martina Barthelme</span>
+    <span class="brand-role">Freie Traurednerin</span>
+  </a>
+  <a class="back" href="index.html">Zurück zur Startseite</a>
+</header>
+
+<main>
+  <section class="hero">
+    <p class="eyebrow">Rechtliches</p>
+    <h1>Impressum</h1>
+    <p class="intro">Angaben gemäß § 5 Digitale-Dienste-Gesetz (DDG).</p>
+  </section>
+
+  <div class="content">
+    <aside class="side-card">
+      <span class="heart">♡</span>
+      <p><strong>Martina Barthelme</strong></p>
+      <p>Freie Traurednerin</p>
+      <p>Eure Geschichte. Eure Worte. Euer Moment.</p>
+    </aside>
+
+    <article class="legal">
+      <section>
+        <h2>Anbieterin</h2>
+        <p>Martina Barthelme<br>Freie Traurednerin</p>
+        <p class="placeholder">Weststr. 4<br>24159 Kiel</p>
+      </section>
+
+      <section>
+        <h2>Kontakt</h2>
+        <p>E-Mail:
+          <a href="mailto:martina@euer-ja-eure-geschichte.de">martina@euer-ja-eure-geschichte.de</a>
+        </p>
+        <p class="placeholder">Telefon: <a href="tel:+491631747663">0163 1747663</a></p>
+      </section>
+
+      <section>
+        <h2>Umsatzsteuer</h2>
+        <p>Falls vorhanden, hier die Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG eintragen.</p>
+        <p class="placeholder">BITTE PRÜFEN: USt-IdNr. vorhanden? Falls nein, diesen Abschnitt entfernen.</p>
+      </section>
+
+      <section>
+        <h2>Redaktionell verantwortlich</h2>
+        <p>Falls auf der Website journalistisch-redaktionelle Inhalte veröffentlicht werden, kann zusätzlich eine verantwortliche Person nach dem Medienstaatsvertrag anzugeben sein.</p>
+        <p class="placeholder">BITTE PRÜFEN: Falls erforderlich, Name und Anschrift der verantwortlichen Person ergänzen.</p>
+      </section>
+
+      <section>
+        <h2>Verbraucherstreitbeilegung</h2>
+        <p>Bitte prüfen, ob für das Unternehmen eine Informationspflicht nach dem Verbraucherstreitbeilegungsgesetz besteht. Je nach Unternehmensgröße und Teilnahmebereitschaft kann hier eine entsprechende Erklärung erforderlich sein.</p>
+        <p class="placeholder">BITTE NICHT UNGEPRÜFT VERÖFFENTLICHEN: Formulierung individuell festlegen.</p>
+      </section>
+
+      <section>
+        <h2>Haftung für Inhalte</h2>
+        <p>Für eigene Inhalte auf dieser Website gelten die allgemeinen gesetzlichen Vorschriften. Eine pauschale Haftungsfreizeichnung ersetzt keine gesetzliche Prüfung im Einzelfall.</p>
+      </section>
+
+      <section>
+        <h2>Urheberrecht</h2>
+        <p>Die auf dieser Website verwendeten Texte, Fotografien, Grafiken und sonstigen Inhalte unterliegen, soweit anwendbar, dem Urheberrecht. Eine Nutzung außerhalb der gesetzlichen Schranken bedarf der Zustimmung der jeweiligen Rechteinhaber*innen.</p>
+      </section>
+    
+      <section>
+        <h2>Webdesign</h2>
+        <p>
+          Webseite erstellt von Andrea Kutschan<br>
+          <a href="https://www.kutschan.com" target="_blank" rel="noopener noreferrer">www.kutschan.com</a>
+        </p>
+      </section>
+
+</article>
+  </div>
+</main>
+
+<footer>
+  <span>© Martina Barthelme · Freie Traurednerin</span>
+  <span><a href="index.html">Startseite</a> · <a href="impressum.html">Impressum</a></span>
+</footer>
+
+</body>
+</html>
